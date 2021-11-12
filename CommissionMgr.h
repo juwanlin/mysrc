@@ -8,7 +8,8 @@
 #include <fstream>
 #include <map>
 
-using namespace std;
+//using namespace std;
+//ad  
 
 namespace BM35 {
 
