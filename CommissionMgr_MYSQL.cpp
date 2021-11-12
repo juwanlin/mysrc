@@ -6,10 +6,7 @@
 using namespace std;
 
 namespace BM35 {
-void CommissionMgr::defineOptions(OptionSet& options)
-{
-    ServerProcessTools::defineOptions(options);
-}
+
 void CommissionMgr::handleConfig(const std::string& name, const std::string& value)
 {
     loadConfiguration(value);
